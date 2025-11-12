@@ -1,0 +1,92 @@
+// Done
+
+
+import React, { useState } from 'react'
+import './AlljobCard.css'
+import Onejob from './Onejob';
+export default function AlljobCard({ title, skills, description, maxSalary, minSalary, city, applyLink, jobType, company, workType, disabilityType, _id, createdAt ,address,job_id,inv_mode,experience}) {
+
+    const [one, setOne] = useState(false);
+    const [read, Setread] = useState(false);
+
+    var mydate = new Date(createdAt);
+    mydate = mydate.toDateString();
+
+
+    function viewHandler() {
+        setOne(true);
+        Setread(true);
+        console.log("clicked");
+        // console.log("props output", props);
+    }
+    function hideHandler() {
+        setOne(false);
+        Setread(false);
+    }
+    return (
+        <>
+            <div style={{ display: "flex", flexDirection: "column"}}>
+                <div className='jobmaindiv21 job-cardb01' style={{border:"none"}}>
+                    <div className='jobstyle21'>
+                        <div style={{ display: "flex", justifyContent: "space-between",}}>
+                            <div style={{ display: "flex", alignItems: "center", width: "200px", gap: "20px", }}>
+                                {/* <h1 className='jobtitle21' >{title.split(" ").slice(0, 5).join(" ") + "..."}</h1> */}
+                                <div>
+                                    <img style={{ mixBlendMode: "multiply"}}  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvYJ50C4Ni_-D_nvHAig7VvJygi7P4_6NNOvkhbxfk1WdeqCpuNhJjQgkaEu8DuTCaJHU&usqp=CAU' width={60} alt='joblogo'/>
+                                </div>
+                                <div style={{ display: "flex", flexDirection: "column", gap: ".5px", paddingTop: "20px" }}>
+                                    <h1 className='jobtitle21' style={{color:"#f58840",fontWeight:"bolder"}} >{title}</h1>
+                                    <p className='company21' style={{color:"black",fontWeight:"bolder"}}>{company}</p>
+                                </div>
+                            </div>
+
+                            <div style={{ paddingTop: "20px" }}>
+                                {
+                                    read == false ?
+                                        (<button className='viewbutton21' onClick={viewHandler}>View now</button>)
+                                        :
+                                        (<button className='viewbutton21' onClick={hideHandler}>Hide</button>)
+                                }
+                            </div>
+
+                        </div>
+
+
+                        <p className='desc21'>{description.split(" ").slice(0, 25).join(" ") + "..."}</p>
+
+
+                        <div className='footerjob03'>
+                            <div style={{ display: 'flex', gap: "10px",}}>
+                                <div><img style={{ width: "20px", height: "20px", mixBlendMode: "multiply", borderRadius: "20px" }} src="data:image/png;base64,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" alt="location" /></div>
+                                <div><p className='place21' style={{color:"black",fontWeight:"bold",fontSize:"1.5rem"}}>{city}</p></div>
+                            </div>
+
+                            <div style={{ display: 'flex', gap: "10px", }}>
+                                <div><img style={{ width: "20px", height: "20px", mixBlendMode: "multiply" }} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYBfaQaBsb-Pe252MmEK7jJukNBkgWB7NySb8iq0E4LCZ_chWlxn1Yr63L-hdlz9GvzDo&usqp=CAU" alt="workicon" /></div>
+                                <div><p className='place21' style={{color:"black",fontWeight:"bold",fontSize:"1.5rem"}}>{workType}</p></div>
+                            </div>
+
+                            <div style={{ display: 'flex', gap: "10px"}}>
+                                <div><img style={{ width: "20px", height: "20px", mixBlendMode: "multiply", marginTop: "2px" }} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBr0mvvmBAn1PV56zNtj26RybFdLguPTjydVlce9kdvg&s" alt="jobtypeicon" /></div>
+                                <div><p className='place21' style={{color:"black",fontWeight:"bold",fontSize:"1.5rem"}}>{jobType}</p></div>
+                            </div>
+
+                            <div style={{ display: 'flex', gap: "10px" }}>
+                                <div><img style={{ width: "21px", height: "21px", mixBlendMode: "multiply", borderRadius: "20px", marginTop: "2px" }} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR33OxXB0ui3NTDfeIdAo2Eg34UO_nyuhqnNUd42_2JXw&s" alt="clockicon" /></div>
+                                <div><p className='place21' style={{color:"black",fontWeight:"bold",fontSize:"1.5rem"}}>Posted on -{mydate}</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div >
+                    {
+                        one && read && (<Onejob title={title} id={_id} description={description} company={company} city={city} workType={workType} applyLink={applyLink} skills={skills} disabilityType={disabilityType} minSalary={minSalary} maxSalary={maxSalary} job_id={job_id} inv_mode={inv_mode} experience={experience} address={address} />)
+                    }
+                </div>
+            </div>
+
+
+
+        </>
+    )
+}

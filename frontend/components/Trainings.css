@@ -1,0 +1,100 @@
+
+.trainings88
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    background-color:rgba(233, 224, 224, 0.98);
+}
+@media (max-width: 800px) {
+  .trainings88 {
+    flex-direction: column;
+  }
+}
+.trainings88 h1{
+    font-size: 6.5rem;
+    font-family: 'Merriweather', serif;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.filtercourse88
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    width: 60vw;
+    margin: auto;
+    margin: 2rem 0;
+    padding: 1rem 1.5rem;
+    /* border: 2px solid #e99c69 ; */
+    box-shadow: 0 3px 10px rgb(0,0,0,0.2);
+    border-radius: 15px;
+    background-color: #F6F0F0;
+}
+
+.all-fliterbtns88
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+ .filter_btn88{
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #F58840;
+    background-color: white;
+    color: #F58840;
+    font-size: 1.8rem;
+}
+
+.searchFilter88
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.searchFilter88 input
+{
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 8px;
+    border: 1px solid rgb(122, 122, 122);
+    font-size: medium;
+}
+.searchFilter88 button{
+    padding: 1.2rem 2rem;
+    border-radius: 10px;
+    background-color: #F58840;
+    color:white ;
+    border: none;
+    font-size: 1.4rem;
+}
+
+.serbtn88:active
+{
+    transform: scale(0.95);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .filtercourse88 {
+        width: 80vw;
+        gap: 10rem;
+    }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+    .filtercourse88 {
+        width: 90vw;
+        gap: 5rem;
+    }
+}

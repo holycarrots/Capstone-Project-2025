@@ -1,0 +1,237 @@
+.backlogin21{
+    background-color: #F8F9FA;
+}
+.login21 {
+    width: 800px;
+    min-height: 300px;
+    margin: 10rem auto;
+    display: flex;
+    box-shadow: -5px 0px 15px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 0.9375rem;
+}
+label{
+    font-family: 'Roboto', sans-serif;
+}
+.maindivimage21 {
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 0.9375rem 0 0 0.9375rem;
+    overflow: hidden;
+    background: no-repeat;
+    /* background: url(../assets/login.png), lightgray 80% / cover no-repeat; */
+    /* background: #FFF; */
+    box-shadow: -5px 0px 15px 0px rgba(0, 0, 0, 0.10);
+    background-color: #71b7e6;
+
+}
+.maindivimage21 img{
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: cover;
+}
+.loginform21 {
+    width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 0 0.9375rem 0.9375rem 0;
+    background: #FFF;
+    box-shadow: 0px -5px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+.logo21 {
+    width: 80px;
+    height: 85px;
+    mix-blend-mode: multiply;
+    border-radius: 15px;
+    padding-top: 20px;
+    display: flex;
+    margin: auto;
+}
+
+.detail21 h3 {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: #000;
+/* font-family: Roboto; */
+font-size: 22px;
+/* font-style: normal; */
+font-weight: 600;
+line-height: normal;
+}
+
+.content21 {
+    padding-left: 80px;
+}
+
+.content21 form .longdiv21 {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .longdiv21 .input-box21 {
+    margin-bottom: 10px;
+    width: calc(100% / 2 - 20px);
+}
+
+form .input-box21 label.details21 {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+form .input-box21 label.details21::after{
+    content: " * ";
+    color: red;
+    font-size: 20px;
+}
+
+.longdiv21 .input-box21 input {
+    height: 40px;
+    /* width: 160px; */
+    outline: none;
+    font-size: 12px;
+    border-radius: 5px;
+    padding-left: 25px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.longdiv21 .input-box21 input:focus,
+.longdiv21 .input-box21 input:valid {
+    border-color: #9b59b6;
+}
+
+form .gender-details21 .gender-title21 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .category21 {
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+
+form .category21 label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+form .category21 label .dot21 {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #d9d9d9;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+#dot-1:checked~.category21 label .one21,
+#dot-2:checked~.category21 label .two21,
+#dot-3:checked~.category21 label .three21 {
+    background: #9b59b6;
+    border-color: #d9d9d9;
+}
+
+form input[type="radio"] {
+    display: none;
+}
+
+form .button21 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    margin: 35px 0
+}
+
+form .button21 input {
+    align-items: center;
+    height: 100%;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+form .button21 input:hover {
+    /* transform: scale(0.99); */
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+@media(max-width: 584px) {
+    .container21 {
+        max-width: 100%;
+    }
+
+    form .user-details21 .input-box21 {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    form .category21 {
+        width: 100%;
+    }
+
+    .content21 form .user-details21 {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+
+    .user-details21::-webkit-scrollbar {
+        width: 5px;
+    }
+}
+
+@media(max-width: 459px) {
+    .container21 .content21 .category21 {
+        flex-direction: column;
+    }
+}
+
+.loginbutton21 {
+    margin-top: 16px;
+    /* padding-bottom: 10px; */
+    margin-bottom: 15px;
+    width: 320px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: none;
+    background: #F58840;
+    margin-right: 10px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: Roboto; */
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 600;
+    cursor: pointer;
+    /* line-height: normal; */
+}
+
+.loginregister21 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: Roboto; */
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 400;
+    margin-right: 90px;
+    /* line-height: normal; */
+}

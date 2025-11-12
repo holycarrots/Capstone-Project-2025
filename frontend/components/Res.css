@@ -1,0 +1,58 @@
+.resume-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+  }
+  
+  .page-content {
+    padding: 10px;
+    width: calc(100% - 40px); /* Adjust according to the spacing on each side */
+    max-width: 800px; /* Maximum width of the content */
+    border-style: solid;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #000000;
+  }
+  
+  .section p {
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  .section hr {
+    border: none;
+    border-top: 1px solid #000000;
+    margin: 20px 0;
+  }
+  
+  /* Animation */
+  .section {
+    opacity: 1;
+  }
+  .resdiv224{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .receipt-modal-download-button{
+    background-color: #45a049;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.actions-right{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+  
+}
+  
+  
+  

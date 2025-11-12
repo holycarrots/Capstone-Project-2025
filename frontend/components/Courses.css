@@ -1,0 +1,131 @@
+/* .full-courses88
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:20px;
+    padding: 20px;
+    padding-bottom: 4rem;
+    background-color:rgba(233, 224, 224, 0.8);
+}
+@media (max-width: 800px) {
+  .full-courses88 {
+    flex-direction: column;
+  }
+}
+
+.full-courses88 h1{
+    margin-bottom: 0px;
+    font-size: 4.5rem;
+    width: 60vw;
+    font-family: 'Merriweather', serif;
+
+}
+
+.full-courses88 p{
+    margin-top: 10px;
+    font-size:2.5rem ;
+}
+.courses88{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:5rem;
+}
+
+.courses-btn88
+{
+    padding: 1.2rem 2rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: #F58840;
+    color: white;
+    border:1px solid #F58840;
+    font-size: 1.7rem;
+}
+
+.courses-btn88:hover
+{
+    background-color: white;
+    color: #F58840;
+    border: 1px solid #F58840;
+    transition: 0.2s ease-in-out;
+}
+
+.courses-btn88:active{
+    transform: scale(0.92);
+} */
+
+
+
+
+.full-courses88
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:20px;
+    padding: 20px;
+    padding-bottom: 4rem;
+    background-color:rgba(233, 224, 224, 0.8);
+}
+@media (max-width: 800px) {
+  .full-courses88 {
+    flex-direction: column;
+  }
+}
+
+.full-courses88 h1{
+    margin-bottom: 0px;
+    font-size: 4.5rem;
+    width: 60vw;
+    font-family: 'Merriweather', serif;
+
+}
+
+.full-courses88 p{
+    margin-top: 10px;
+    font-size:2.5rem ;
+}
+.courses88{
+   overflow: hidden;
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    gap:5rem;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.courses-btn88
+{
+    padding: 1.2rem 2rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: #F58840;
+    color: white;
+    border:1px solid #F58840;
+    font-size: 1.7rem;
+}
+
+.courses-btn88:hover
+{
+    background-color: white;
+    color: #F58840;
+    border: 1px solid #F58840;
+    transition: 0.2s ease-in-out;
+}
+
+.courses-btn88:active{
+    transform: scale(0.92);
+}

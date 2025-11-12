@@ -1,0 +1,124 @@
+.jobs88
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5vh;
+    padding: 5vh 5vw;
+}
+
+.featured88
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+}
+.featured88 h1
+{
+    margin-bottom: 0px;
+    font-size: 4.5rem;
+    width: 60vw;
+    font-family: 'Merriweather', serif;
+}
+.featured88 p{
+    margin-top: 2rem;
+    font-size:2.5rem ;
+    width: 70vw;
+}
+
+
+.cards88
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:2rem;
+    width: 90vw;
+    flex-wrap: wrap;
+    padding:20px 5px;
+}
+
+.jobs-btn88
+{
+    padding: 1.2rem 1.7rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: #F58840;
+    color: white;
+    border:1px solid #F58840;
+    font-size: 1.7rem;
+}
+
+.jobs-btn88:hover
+{
+    background-color: white;
+    color: #F58840;
+    border: 1px solid #F58840;
+    transition: 0.2s ease-in-out;
+}
+
+.jobs-btn88:active{
+    transform: scale(0.92);
+}
+
+@media(max-width:768px){
+    .root{
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+    .cards88{
+        width: 100vw !important;
+        display: flex !important;
+        flex-direction: column !important;
+        /* width: 120vw !important; */
+    }
+    .card88{
+        width:90vw !important;
+    }
+    .ft-section88{
+        flex-direction: column !important;
+    }
+    .feature88{
+        width:90vw !important;
+
+    }
+    .review88{
+        max-width: 100vw !important;
+    }
+    .heading88{
+        /* display: flex !important; */
+        display: flex !important;
+        justify-content: center;
+        align-items: center !important;
+        max-width:90vw !important;
+    }
+    .heading-img88 img {
+        /* height: 400px; */
+        width: 95vw !important;
+    }    
+    .context88{
+        display: flex !important;
+        justify-content: space-around !important;
+        width:95vw !important;
+        
+    }
+    .foot88{
+        display: flex !important;
+        flex-direction: column !important;
+        /* justify-content: space-around !important; */
+    }
+    .content88{
+        width:90vw !important;
+    }
+    .story-head88 {
+        font-size: 4.5rem;
+        font-family: 'Merriweather', serif;
+        padding-left: 10px;
+        text-align: center;
+        padding-right: 10px;
+    }
+
+}

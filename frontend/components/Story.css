@@ -1,0 +1,15 @@
+.story88
+{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-270191.jpg");
+}
+.story-head88
+{
+    font-size: 4.5rem;
+    font-family: 'Merriweather', serif;;
+}

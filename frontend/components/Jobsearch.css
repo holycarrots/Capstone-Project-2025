@@ -1,0 +1,90 @@
+
+.searchjobmaindiv21{
+    margin-top: 30px;
+    width: 1000px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #F58840;
+    background: #FDFDFD;
+    box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.20);
+    }
+    .searchjobtitle21{
+        color: #040D12;
+    /* text-align: center; */
+    /* font-family: Roboto; */
+    font-size: 30px;
+    /* font-style: normal; */
+    font-weight: 600;
+    /* line-height: normal; */
+    }
+    .searchcompany21{
+        /* margin-bottom: 5px; */
+        color: #272829;
+    /* text-align: center; */
+    /* font-family: Roboto; */
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 400;
+    /* line-height: normal; */
+    }
+    .searchplace21{
+        color: #272829;
+    /* text-align: center; */
+    /* font-family: Roboto; */
+    font-size: 17px;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: 1.7;
+    }
+    .searchjobstyle21{
+        padding-left:20px;
+        padding-Right:20px;
+    }
+    .searchlocation21{
+        display: flex;
+        gap: 10px;
+    }
+    .searchsalary21{
+        color: rgba(41, 41, 41, 0.97);
+    /* text-align: center; */
+    /* font-family: Roboto; */
+    font-size: 22px;
+    /* font-style: normal; */
+    font-weight: 600;
+    /* line-height: normal; */
+    }
+    .searchdesc21{
+        color: #272829;
+    /* font-family: Roboto; */
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 400;
+    /* line-height: normal; */
+    }
+    .searchapply21{
+        display: flex;
+        justify-content: space-between;
+        align-self: normal;
+    }
+    .searchapplybutton21{
+        width: 89px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(231, 188, 77, 0.50);
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    }
+    .searchviewbutton21{
+    width: 121px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #F58840;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    }

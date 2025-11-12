@@ -1,0 +1,25 @@
+.gsection21{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    }
+    
+  .gpvtjobs21{
+    display: flex;
+    margin: 3rem auto;
+  }
+  .gpvtjobs21 p{
+    color:#F58840;
+    font-size: 30px;
+    font-weight: 600;
+  }
+    .gcol21{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 5rem;
+        min-height: 800px;
+    }
+   

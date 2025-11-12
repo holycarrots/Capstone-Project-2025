@@ -1,0 +1,66 @@
+
+
+.post-form
+{
+    box-shadow: 2px 3px 20px rgba(195, 101, 70, 0.5);
+}
+    .button2b02 {
+        position: absolute; 
+        /* top: 759px; */
+        left: 62%;
+        width: 100px;
+        height: 36px;
+        padding: 0 12px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Inter;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+        color: #FFFFFFFF;
+        background: #00BDD6FF;
+        opacity: 1;
+        border: none;
+        border-radius: 4px;
+        }
+        /* Hover */
+        .button2b02:hover {
+        color: #FFFFFFFF;
+        background: #00A9C0FF;
+        }
+
+        input[type=text] {
+            padding: 8px;
+            border: none;
+            outline: none;
+            border-radius: 4px;
+            background: rgb(227, 227, 227);
+        }
+        textarea{
+            background: rgb(227, 227, 227);
+            border-radius: 4px;
+            border: none;
+            padding: 8px;
+            outline: none;
+        }
+        
+        #jobType{
+            background: rgb(227, 227, 227);
+            border-radius: 4px;
+            border: none;
+        }
+        #disabilityType{
+            background: rgb(227, 227, 227);
+            border-radius: 4px;
+            border: none;
+        }
+        #workType{
+            background: rgb(227, 227, 227);
+            border-radius: 4px;
+            border: none;
+        }
+        label{
+            font-size: 18px;
+            font-weight: 600;
+        }

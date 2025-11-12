@@ -1,0 +1,311 @@
+.backsignup21 {
+  background-color: #f8f9fa;
+}
+
+.signlogin21 {
+  width: 1000px;
+  min-height: 300px;
+  /* margin: auto; */
+  /* margin-top: 30px; */
+  display: flex;
+  margin: 6rem auto;
+  box-shadow: -5px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 0.9375rem;
+}
+
+.signmaindivimage21 {
+  width: 500px;
+  height: 725px;
+  flex-shrink: 0;
+  border-radius: 0.9375rem 0 0 0.9375rem;
+  overflow: hidden;
+  background: no-repeat;
+  /* background: url(../assets/login.png), lightgray 80% / cover no-repeat; */
+  /* background: #FFF; */
+  box-shadow: -5px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  background-color: #71b7e6;
+}
+.signmaindivimage21 img {
+  width: 100%; /* or any custom size */
+  height: 100%;
+  object-fit: cover;
+}
+.signloginform21 {
+  width: 500px;
+  height: 725px;
+  flex-shrink: 0;
+  border-radius: 0 0.9375rem 0.9375rem 0;
+  background: #fff;
+  box-shadow: -5px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.signdetail21 h3 {
+
+  text-align: center;
+  color: #000;
+  /* font-family: Roboto; */
+  font-size: 22px;
+  /* font-style: normal; */
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+.signdetails21 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.signdetails21::after {
+  content: " * ";
+  color: red;
+  font-size: 20px;
+}
+.verification21::after {
+  content: " * ";
+  color: red;
+  font-size: 20px;
+}
+.signcontent21 {
+  padding-left: 80px;
+}
+
+form .signuser-details21 {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  gap: 2px;
+  margin: 20px 0 12px 0;
+}
+
+form .signuser-details21 .signinput-box21 {
+  /* margin-bottom: 10px; */
+  width: calc(100% / 2 - 20px);
+}
+
+form .signinput-box21 label .signdetails21 {
+
+  /* display: block; */
+  font-weight: 800;
+  /* font-size: 16px; */
+  margin-bottom: 10px;
+}
+
+.signinput-box21 input {
+  height: 40px;
+  width: 160px;
+  outline: none;
+  font-size: 14px;
+  border-radius: 5px;
+  padding-left: 20px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.signlongdiv21 input {
+  height: 40px;
+  font-size: 16px;
+}
+.signgetcode21 {
+  color: #f58840;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signgetcode21 input {
+  margin-top: 15px;
+  height: 40px;
+  width: 240px;
+  outline: none;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.signuser-details21 .signinput-box21 input:focus,
+.signuser-details21 .signinput-box21 input:valid {
+  border-color: #9b59b6;
+}
+
+.signcontent21 form .signlongdiv21 {
+  /* margin-bottom: 10px; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .signlongdiv21 .signinput-box21 {
+  /* margin-bottom: 10px; */
+  width: calc(100% / 2 - 20px);
+}
+
+form .signinput-box21 label .signdetails21 {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.signlongdiv21 .signinput-box21 input {
+  height: 30px;
+  /* width: 160px; */
+  outline: none;
+  font-size: 12px;
+  border-radius: 5px;
+  padding-left: 25px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.signlongdiv21 .signinput-box21 input:focus,
+.signlongdiv21 .signinput-box21 input:valid {
+  border-color: #9b59b6;
+}
+
+form .signgender-details21 .signgender-title21 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+form .signcategory21 {
+  display: flex;
+  width: 80%;
+  margin: 14px 0;
+  justify-content: space-between;
+}
+
+form .signcategory21 label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+form .signcategory21 label .signdot21 {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+
+#dot-1:checked ~ .signcategory21 label .signone21,
+#dot-2:checked ~ .signcategory21 label .signtwo21,
+#dot-3:checked ~ .signcategory21 label .signthree21 {
+  background: #9b59b6;
+  border-color: #d9d9d9;
+}
+
+form input[type="radio"] {
+  display: none;
+}
+
+form .signbutton21 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  margin: 35px 0;
+}
+
+form .signbutton21 input {
+  align-items: center;
+  height: 100%;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+form .signbutton21 input:hover {
+  /* transform: scale(0.99); */
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+@media (max-width: 584px) {
+  .signcontainer21 {
+    max-width: 100%;
+  }
+
+  form .signuser-details21 .signinput-box21 {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  form .signcategory21 {
+    width: 100%;
+  }
+
+  .signcontent21 form .signuser-details21 {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
+  .signuser-details21::-webkit-scrollbar {
+    width: 5px;
+  }
+}
+
+@media (max-width: 459px) {
+  .signcontainer21 .signcontent21 .signcategory21 {
+    flex-direction: column;
+  }
+}
+
+.signloginbutton21 {
+  margin-top: 14px;
+  margin-bottom: 10px;
+  width: 350px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: none;
+  background: #f58840;
+  /* margin-left: 20px; */
+  color: #fff;
+  /* font-family: Roboto; */
+  font-size: 16px;
+  /* font-style: normal; */
+  font-weight: 600;
+  /* line-height: normal; */
+}
+.signloginbutton21:active {
+  transform: scale(0.95);
+  transition: 0.5s ease-in-out;
+}
+
+.signgetcode21 {
+  display: flex;
+}
+.code21 {
+  padding: 2rem;
+}
+.code21:active {
+  transform: scale(0.95);
+}
+
+.signloginregister21 {
+  text-align: center;
+  /* font-family: Roboto; */
+  font-size: 16px;
+  /* font-style: normal; */
+  font-weight: 600;
+  margin-right: 50px;
+  /* line-height: normal; */
+}

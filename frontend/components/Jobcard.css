@@ -1,0 +1,98 @@
+
+.jobmaindiv21{
+margin-top: 30px;
+width: 1000px;
+height: 250px;
+flex-shrink: 0;
+border-radius: 20px;
+border: 1px solid #F58840;
+background: #FDFDFD;
+box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.20);
+}
+.jobtitle21{
+    color: #040D12;
+/* text-align: center; */
+/* font-family: Roboto; */
+font-family: 'Merriweather', serif;
+font-size: 30px;
+/* font-style: normal; */
+font-weight: 600;
+/* line-height: normal; */
+}
+.company21{
+    font-family: 'Roboto', sans-serif;
+    /* margin-bottom: 5px; */
+    color: #272829;
+/* text-align: center; */
+/* font-family: Roboto; */
+font-size: 20px;
+/* font-style: normal; */
+font-weight: 400;
+/* line-height: normal; */
+}
+.place21{
+    color: #272829;
+    font-family: 'Roboto', sans-serif;
+/* text-align: center; */
+/* font-family: Roboto; */
+font-size: 17px;
+/* font-style: normal; */
+font-weight: 400;
+line-height: 1.7;
+}
+.jobstyle21{
+    padding-left:20px;
+    padding-Right:20px;
+}
+.location21{
+    display: flex;
+    gap: 10px;
+}
+.salary21{
+    color: rgba(41, 41, 41, 0.97);
+    font-family: 'Roboto', sans-serif;
+/* text-align: center; */
+/* font-family: Roboto; */
+font-size: 22px;
+/* font-style: normal; */
+font-weight: 600;
+/* line-height: normal; */
+}
+.desc21{
+    color: #272829;
+    font-family: 'Roboto', sans-serif;
+/* font-family: Roboto; */
+font-size: 16px;
+/* font-style: normal; */
+font-weight: 400;
+/* line-height: normal; */
+}
+.apply21{
+    display: flex;
+    justify-content: space-between;
+    align-self: normal;
+}
+.applybutton21{
+    width: 89px;
+height: 28px;
+flex-shrink: 0;
+border-radius: 20px;
+background: rgba(231, 188, 77, 0.50);
+font-size: 13px;
+font-weight: 600;
+border: none;
+}
+.viewbutton21{
+width: 121px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #F58840;
+font-size: 15px;
+font-weight: 600;
+color: white;
+border: none;
+}
+.viewbutton21:active{
+    transform: scale(0.95);
+}

@@ -1,0 +1,21 @@
+.motocard88
+{
+    display: flex;
+    width: 40rem;
+    height: 25rem;
+    border: 1px solid  black;        
+    text-align: left;
+    margin: 30px;
+    padding: 0px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+.motocard88 iframe
+{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    border: none
+
+}

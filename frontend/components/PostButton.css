@@ -1,0 +1,231 @@
+/* //Done */
+
+
+.PostArea21{
+    /* padding-left: 50px;
+    padding-right: 50px; */
+}
+
+.filterButton21{
+    display: flex;
+    /* justify-content: center; */
+    gap: 25px;
+    margin: 0 4rem;
+    
+}
+
+.bannerb01
+{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/007/238/598/non_2x/circles-geometry-gradient-background-with-yellow-and-orange-color-combination-presentation-background-design-suitable-for-presentation-poster-wallpaper-personal-website-ui-and-ux-experiences-free-photo.jpg");
+  margin-bottom: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.box21{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(227, 227, 227);;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.icon21{
+    font-size: 20px;
+    color:#777;
+}
+
+.box21 .filtersearch21{
+    flex: 1;
+    /* width: 450px; */
+    height: 48px;
+    font-size: 16px; 
+    line-height: 26px; 
+    font-weight: 400; 
+    background: rgb(227, 227, 227);
+    /* border-radius: 6px; */
+    border: none;
+    /* border-width: 0px;  */
+    outline: none; 
+    padding-left: 10px;
+
+}
+
+.jobtypefilter21{
+    width: 200px;
+    background: rgb(227, 227, 227);
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.worktypefilter21{
+    width: 300px;
+    background: rgb(227, 227, 227);
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.postButton21{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 2rem;
+     width: 100%;
+    padding-right: 15px; 
+    padding-top: 40px;
+    padding-bottom: 20px;
+    opacity: 90%;
+    
+}
+
+
+
+.buttonpost-21 {
+    background-color: #EA4C89;
+    width: 130px;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  /* .buttonpost-21:hover,
+  .buttonpost-21:focus {
+    background-color: #F082AC;
+  } */
+
+
+  .buttonpost-21:hover
+  {
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+    transition-property:transform;
+    transform: scale(1.05);
+  }
+
+
+
+
+
+
+
+
+/* .button-21 {
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100px;
+    height: 50px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  } */
+  
+  /* .button-21:hover,
+  .button-21:focus {
+    background-color: #F082AC;
+  } */
+
+/* line 155 er classname */
+  /* .filtereachjob21{
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 20px; */
+  /* } */
+
+  .noJobs03{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px;
+  }
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    /* color: #0087ca; */
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f3f5f6;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .listItem03{
+    color: white;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(
+        to right,
+        #060c28,
+        #020830 50%,
+        rgb(253, 249, 249) 50%);
+        background-size: 200% 100%;
+        background-position: 100%;
+  }
+  .listItem03:hover {
+    transition: all 1s cubic-bezier(0.000, 0.000, 0.230, 1);
+    background-position: 0%;
+  }
+  li{
+    cursor: pointer;
+  }
+  li::marker {
+    color: #e1e5e7;
+  }
+
+
+  

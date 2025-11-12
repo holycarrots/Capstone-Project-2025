@@ -1,0 +1,163 @@
+
+/* body{    
+    margin:0;
+    padding:0;
+} */
+.container223 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-270191.jpg");
+    /* height: 100vh; */
+}
+.form223 {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Transparent white border */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.edprjct{
+    display:flex;
+    /* justify-content: space-; */
+    /* align-items: center; */
+}
+.experience-container,.project-container{
+  margin-left: 5vh;
+}
+
+
+
+/* .form223 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+} */
+
+
+label {
+    margin-right: 10px;
+}
+
+.input223 {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.sub223 {
+    width: 2rem;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 95vh;
+    padding: 15px 32px;
+    background-color: #4CAF50;
+    color: black;
+    border: 1px solid #f58840;
+    border-radius: 5px;
+    font-size:18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sub223:hover {
+    background-color: white;
+    color: #f58840;
+    border: 2px solid #f58840;
+   
+}
+
+h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+
+.add223{
+    background-color: #5c4caf; /* Green color for add button */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 38px;
+    /* margin-left: 400px; */
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+
+}
+.add223:hover {
+    background-color: #4a3f8a; /* Darker shade of green on hover */
+}
+.clear223{
+  background-color: #5c4caf; /* Green color for add button */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  margin-top: 50px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.del223 {
+  background-color: #f44336; /* Red color for delete button */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.del223:hover {
+  background-color: #d32f2f; /* Darker shade of red on hover */
+}
+
+/* CSS animations for the delete and add buttons */
+.del223,.add223 {
+  animation: buttonFadeIn 0.5s ease forwards;
+}
+
+@keyframes buttonFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+body{
+  max-width: 100vw !important;
+  overflow-x: hidden;
+}

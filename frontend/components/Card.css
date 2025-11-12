@@ -1,0 +1,214 @@
+/* 
+
+.card88
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 0  15px rgba(36, 35, 35, 0.5);
+    gap: 5px;
+    padding: 1.5rem 2rem;
+    margin: 10px;
+    align-self: normal;
+    width: 30%;
+    min-height: 350px;
+    border: 1px solid #F58840;
+} 
+
+.comp88
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.comp88 h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: black;
+    font-family: "'Merriweather', serif";
+}
+
+.role88
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.role88 h2{
+    font-weight: 600;
+    font-size: 2.7rem;
+}
+
+.role88 p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.mode88
+{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: flex-start;
+}
+
+.modebtn88
+{
+    width: 8rem;
+    height: 3.5rem;
+    border-radius: 6px;
+    border: none;
+    color: black;
+    background-color: #F2DCA5;
+    font-size: 1.5rem;
+}
+
+
+.salary88
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.details88
+{
+    width: 12rem;
+    height: 4.5rem;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 1.7rem;
+    color: #F58840;
+    font-weight: 600;
+    border: 2px solid #F58840 ;
+    
+}
+
+.details88:hover
+{
+    background-color:#F58840;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.salary88 h2{
+    font-weight: 600;
+} */
+
+
+
+
+
+.card88
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    
+    gap: 5px;
+    padding: 1.5rem 2rem;
+    margin: 10px;
+    align-self: normal;
+    width: 26%;
+    min-height: 350px;
+    border: 2px solid #e9b694;
+} 
+.card88:hover
+{
+    box-shadow: 0 0  15px rgba(36, 35, 35, 0.5);
+    background-color: antiquewhite;
+     h1{
+        color: black;
+    }
+}
+
+.comp88
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.comp88 h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #F58840;
+    font-family: "'Merriweather', serif";
+}
+
+.role88
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+.role88 h2{
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+
+.role88 p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.mode88
+{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.modebtn88
+{
+    width: 8rem;
+    height: 3.5rem;
+    border-radius: 6px;
+    border: none;
+    color: black;
+    background-color: #F2DCA5;
+    font-size: 1.5rem;
+}
+
+
+.salary88
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.details88
+{
+    width: 14rem;
+    height: 4.5rem;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 1.7rem;
+    color: #F58840;
+    font-weight: 600;
+    border: 2px solid #F58840 ;
+    
+}
+
+.details88:hover
+{
+    background-color:#F58840;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.salary88 h3{
+    font-weight: 400;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 30px;
+}

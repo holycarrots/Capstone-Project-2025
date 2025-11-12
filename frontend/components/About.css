@@ -1,0 +1,432 @@
+.x65 {
+  display: block;
+  font: 38px poppins;
+  padding: 24px 0px 0px 0px;
+  background-color: white;
+  color: black;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+/* body{
+    max-width: 100vw;
+    overflow-x: hidden;
+
+} */
+.g111 {
+  margin-left: 5vw;
+  background: white;
+  padding-left: 1vh;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+}
+.para111 {
+  font-size: 3.8vh;
+  display: flex;
+  justify-content: center;
+  padding-right: 15vh;
+  padding-top: 2%;
+  padding-bottom: 6vh;
+}
+.comma65 {
+  color: #f58840;
+  font-weight: bold;
+  /* font-size: 5vh; */
+}
+.comma64 {
+  color: #f58840;
+  font-weight: bold;
+  /* font-size: 5vh; */
+}
+.par065 {
+  font-size: 3.9vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding-right: 5vw;
+  margin-top: -5vh;
+  padding-bottom: 4vh;
+}
+.deco65 {
+  text-decoration: underline #f58840;
+
+  /* padding-top: 2px; */
+  /* color: #F58840; */
+}
+.upp65 {
+  padding-left: 12vh;
+}
+.peek65 {
+  font: 38px poppins;
+  display: flex;
+  justify-content: start;
+  background-color: #f6f0f0;
+  box-shadow: 0px 3px 5px #868686;
+}
+.tem65 {
+  text-align: center;
+}
+.tem651 {
+  color: #f58840;
+  text-align: center;
+  word-spacing: 60px;
+}
+.divab65 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4vh;
+  text-align: center;
+  background-color: white;
+}
+.meet65 {
+  font: 38px poppins;
+  display: flex;
+  justify-content: center;
+
+  /* display: flex;
+    justify-content: start;
+    text-align: center; */
+}
+
+.phut065 {
+  max-width: 100vw;
+  padding: right 20px;
+  max-height: 90vh;
+  padding-top: 20vh;
+  display: flex;
+  justify-content: center;
+}
+/**/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html {
+  font-family: "Poppins";
+}
+/* body{
+    max-width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+} */
+
+.link111 {
+  font-size: 5vh;
+  color: black !important;
+  text-decoration: none;
+}
+.link111:hover {
+  color: brown !important;
+}
+.linkbot111 {
+  width: 16rem;
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.ctt1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 11px;
+}
+.g2 {
+  display: flex;
+  justify-content: center;
+}
+.s {
+  /* font-weight: 900 !important; */
+  font-size: 9vh;
+  margin-bottom: -5vh;
+  color: #03031b;
+  font-weight: bold;
+  display: flex;
+  justify-content: start;
+  /* text-shadow: 2px 2px #64656a; */
+}
+.r {
+  font-size: 9vh;
+  margin-bottom: -5vh;
+  color: #f58840;
+  font-weight: bold;
+  display: flex;
+  justify-content: start;
+}
+
+.p {
+  display: flex;
+  justify-content: start;
+}
+.member {
+  gap: 16vw;
+}
+.first {
+  font-size: large;
+  margin: 25px 0px 7px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.Last {
+  font-size: large;
+  margin: 25px 0px 7px 0px;
+}
+.u111 {
+  border-radius: 80%;
+  padding: 25px;
+  width: 18vw;
+}
+@media (max-width: 750px) {
+  .first {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cardtop111 {
+    margin-bottom: 3vh;
+  }
+}
+
+/* my css  */
+
+.mis65 h1 {
+  font-family: "Merriweather", serif;
+  font-size: 4.5rem;
+  padding-top: 80px;
+  
+}
+
+.mission88 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.para88 {
+  width: 40vw;
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  line-height: 3.5rem;
+  text-align: justify;
+}
+
+.paraimg88 {
+  height: 550px;
+  width: 600px;
+}
+.paraimg88 img {
+  margin-top: 27px;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.x65 {
+  display: block;
+  font: 38px poppins;
+  padding: 24px 0px 0px 0px;
+  background-color: white;
+  color: black;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+/* body{
+    max-width: 100vw;
+    overflow-x: hidden;
+
+} */
+.g111 {
+  margin-left: 5vw;
+  background: white;
+  padding-left: 1vh;
+}
+.para111 {
+  font-size: 3.8vh;
+  display: flex;
+  justify-content: center;
+  padding-right: 15vh;
+  padding-top: 2%;
+  padding-bottom: 6vh;
+}
+.comma65 {
+  color: #f58840;
+  font-weight: bold;
+  /* font-size: 5vh; */
+}
+.comma64 {
+  color: #f58840;
+  font-weight: bold;
+  /* font-size: 5vh; */
+}
+.par065 {
+  font-size: 3.9vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding-right: 5vw;
+  margin-top: -5vh;
+  padding-bottom: 4vh;
+}
+.deco65 {
+  text-decoration: underline #f58840;
+
+  /* padding-top: 2px; */
+  /* color: #F58840; */
+}
+.upp65 {
+  padding-left: 12vh;
+}
+.peek65 {
+  font: 38px poppins;
+  display: flex;
+  justify-content: start;
+  background-color: #f6f0f0;
+  box-shadow: 0px 3px 5px #868686;
+}
+.tem65 {
+  text-align: center;
+}
+.tem651 {
+  color: #f58840;
+  text-align: center;
+  word-spacing: 60px;
+}
+.divab65 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4vh;
+  text-align: center;
+  background-color: white;
+}
+.meet65 {
+  font: 38px poppins;
+  display: flex;
+  justify-content: center;
+
+  /* display: flex;
+    justify-content: start;
+    text-align: center; */
+}
+
+.phut065 {
+  max-width: 100vw;
+  padding: right 20px;
+  max-height: 90vh;
+  padding-top: 20vh;
+  display: flex;
+  justify-content: center;
+}
+/**/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html {
+  font-family: "Poppins";
+}
+/* body{
+    max-width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+} */
+
+.link111 {
+  font-size: 5vh;
+  color: black !important;
+  text-decoration: none;
+}
+.link111:hover {
+  color: brown !important;
+}
+.linkbot111 {
+  width: 16rem;
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.ctt1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 11px;
+}
+.g2 {
+  display: flex;
+  justify-content: center;
+}
+.s {
+  /* font-weight: 900 !important; */
+  font-size: 9vh;
+  margin-bottom: -5vh;
+  color: #03031b;
+  font-weight: bold;
+  display: flex;
+  justify-content: start;
+  /* text-shadow: 2px 2px #64656a; */
+}
+.r {
+  font-size: 9vh;
+  margin-bottom: -5vh;
+  color: #f58840;
+  font-weight: bold;
+  display: flex;
+  justify-content: start;
+}
+
+.p {
+  display: flex;
+  justify-content: start;
+}
+.member {
+  gap: 16vw;
+}
+.first {
+  font-size: large;
+  margin: 25px 0px 7px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.Last {
+  font-size: large;
+  margin: 25px 0px 7px 0px;
+}
+.u111 {
+  border-radius: 80%;
+  padding: 25px;
+  width: 18vw;
+}
+@media (max-width: 750px) {
+  .first {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cardtop111 {
+    margin-bottom: 3vh;
+  }
+}
+
+/* my css  */
+
+.mis65 h1 {
+  font-family: "Merriweather", serif;
+  font-size: 4.5rem;
+}
+
+.mission88 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.para88 {
+  width: 40vw;
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  line-height: 3.5rem;
+  text-align: justify;
+}
+
+.paraimg88 {
+  height: 550px;
+  width: 600px;
+}
+.paraimg88 img {
+  margin-top: 27px;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}

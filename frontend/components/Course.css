@@ -1,0 +1,128 @@
+/* 
+.course88
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:3px;
+    background-color: white;
+    border-radius: 15px;
+    height: auto;
+    width: 35rem;
+    padding-bottom: 10px;
+    box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
+
+}
+
+
+.course88 h2{
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding: 0 2px;
+    
+}
+
+.course_img88
+{
+    width: 100%;
+    height: 20rem;
+      
+}
+
+.course_img88 img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.course-btn88{
+    padding: 1.2rem 1.5rem;
+    border-radius: 10px;
+    background-color: white;
+    color: #F58840;
+    border: 1.5px solid #F58840;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.course-btn88:hover{
+    background-color: #F58840;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.course-btn88:active{
+    transform: scale(0.95) !important;
+} */
+
+
+
+
+
+.course88
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:3px;
+    background-color: white;
+    border-radius: 15px;
+    height: auto;
+    width: 35rem;
+    padding-bottom: 10px;
+    box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
+    transition: transform 0.5s;
+
+}
+.course88:hover{
+    transform: scale(1.05);
+}
+
+
+.course88 h2{
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding: 0 2px;
+    
+}
+
+.course_img88
+{
+    width: 100%;
+    height: 20rem;
+      
+}
+
+.course_img88 img
+{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.course-btn88{
+    padding: 1.2rem 1.5rem;
+    border-radius: 10px;
+    background-color: white;
+    color: #F58840;
+    border: 1.5px solid #F58840;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.course-btn88:hover{
+    background-color: #F58840;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.course-btn88:active{
+    transform: scale(0.95) !important;
+}

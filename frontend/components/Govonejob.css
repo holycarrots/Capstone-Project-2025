@@ -1,0 +1,171 @@
+.gonejobmain21{
+    display: flex;
+    margin: 5rem auto;
+    width: 1000px;
+    height: 270px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.30);
+    }
+    .ginnerjobmain21{
+    padding-left: 40px;
+    padding-right: 20px;
+    }
+    .gonejobplace21{
+    display: flex;
+    gap: 4px;
+    }
+    .gonejobloc21{
+    color: #272829;
+    text-align: center;
+        /* font-family: Roboto; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .gonejobdetail21{
+    display: flex;
+    justify-content: space-between;
+        /* align-items: center; */
+        /* gap: 500px; */
+    }
+    .gonecompanydesc21{
+    color: #F58840;
+    /* text-align: center; */
+    /* font-family: Roboto; */
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: normal;s */
+    }
+    .gonejobcompany21{
+    color: #272829;
+    float: right;
+    padding-left: 30px;
+    white-space: nowrap;
+    text-overflow: clip;
+    /* text-align: center; */
+    /* font-family: Roboto; */
+    font-size: 30px;
+    /* font-style: normal; */
+    font-weight: 600;
+    /* line-height: -8rem; */
+    }
+    .gonejobweb21{
+        color: #7D5AB8;
+    text-align: center;
+    /* font-family: Roboto; */
+    padding-left: 20px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+    }
+    /* .oneapply21{
+        display: flex;
+        justify-content: space-between;
+        align-self: normal;
+    } */
+    .goneapplybutton21{
+    width: 89px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background: rgba(231, 188, 77, 0.50);
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    }
+    .goneviewbutton21{
+    width: 121px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: #F58840;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    margin-left: 750px;
+    /* padding-right: 180px; */
+    }
+    .gonejobsal21{
+        padding-right: 60px;
+        color: rgba(41, 41, 41, 0.97);
+    text-align: center;
+    /* font-family: Roboto; */
+    font-size: 28px;
+    /* font-style: normal; */
+    font-weight: 600;
+    /* line-height: normal; */
+    }
+    .gonejobabout21{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto;
+    width: 1000px;
+    height: auto;
+    padding-bottom: 2rem;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.30);
+    }
+    .goneaboutthejob21{
+        display: flex;
+       
+        /* justify-content: space-between; */
+        padding-left: 40px;
+        padding-top: 5px;
+       
+    /* line-height: normal; */
+    }
+    .ghehe21{
+        color: #272829;
+        /* text-align: center; */
+        /* font-family: Roboto; */
+        font-size: 35px;
+        /* font-style: normal; */
+        font-weight: 700;
+    }
+    
+    .goneaboutdesc21{
+        margin-top: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .goneaboutdesc21 p{
+        color: #292929;
+    /* font-family: Roboto; */
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: 3rem;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    }
+    .goneaboutdesc21 h3{
+        font-family: 'Merriweather', serif;
+    }
+    
+    .goneviewbutton21:active{
+        transform: scale(0.95);
+    }
+    /* .oneviewbutton21{
+    width: 121px;
+    height: 40px;
+    /* flex-shrink: 0; */
+    /* border-radius: 20px; */
+    /* background: #F58840; */
+    /* font-size: 15px; */
+    /* font-weight: 600; */
+    /* color: white; */
+    /* border: none; */
+    /* margin-right: -300px; */
+    /* margin-right: 200px; */
+    /* } */ 
