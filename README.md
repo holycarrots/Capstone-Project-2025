@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Udyog Saarthi
 
 An end-to-end web application with a React frontend and a Node.js/Express backend. The backend connects to MongoDB and integrates services such as Cloudinary and Razorpay.
@@ -160,3 +161,7 @@ Additional materials are in `docs/`, including reports and references.
 ## Notes
 
 - Ensure your `.env` values are valid before starting the backend. MongoDB and third-party keys are required for full functionality.
+=======
+# Capstone-Project-2025
+Udyog Saarthi is a mobile app tackling unemployment for persons with disabilities in India. It aggregates and simplifies job listings from the 4% reservation quota using web scraping. Features include an AI chatbot, mock interviews, and accessibility tools for users and their caregivers to foster economic independence.
+>>>>>>> 95f0895625c51490f6bb5be50e25eb75d7e082b4
