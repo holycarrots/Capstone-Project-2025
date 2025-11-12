@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Udyog Saarthi
 
 An end-to-end web application with a React frontend and a Node.js/Express backend. The backend connects to MongoDB and integrates services such as Cloudinary and Razorpay.
@@ -6,15 +5,15 @@ An end-to-end web application with a React frontend and a Node.js/Express backen
 ## Team
 
 - Annie Mary Joseph
-- Khushi Yadav
 - Jozach Rajan Samual
+- Khushi Yadav
 
 ---
 
 ## Institution and Guidance
 
 - **College**: Presidency University, Bangalore
-- **Under the guidance of**: Sridevi
+- **Under the guidance of**: Dr. Sridevi S.
 - **Research Paper**: See `docs/Research Paper.pdf`
 
 ---
@@ -164,4 +163,3 @@ Additional materials are in `docs/`, including reports and references.
 =======
 # Capstone-Project-2025
 Udyog Saarthi is a mobile app tackling unemployment for persons with disabilities in India. It aggregates and simplifies job listings from the 4% reservation quota using web scraping. Features include an AI chatbot, mock interviews, and accessibility tools for users and their caregivers to foster economic independence.
->>>>>>> 95f0895625c51490f6bb5be50e25eb75d7e082b4
