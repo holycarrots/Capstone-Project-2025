@@ -1,163 +1,55 @@
-
-/* body{    
-    margin:0;
-    padding:0;
-} */
-.container223 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-270191.jpg");
-    /* height: 100vh; */
+:root{
+  --accent: #111;
+  --accent-2: #000;
+  --muted: #666;
+  --card-bg: #fff;
 }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  background: #f6f7fb;
+  color: #111;
+}
+
+/* Container & Form */
+.container223 { display:flex; justify-content:center; align-items:flex-start; padding:3vh 2vw; }
 .form223 {
-    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
-    padding: 30px;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Transparent white border */
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
-.edprjct{
-    display:flex;
-    /* justify-content: space-; */
-    /* align-items: center; */
-}
-.experience-container,.project-container{
-  margin-left: 5vh;
+  width: 100%; max-width: 980px;
+  background:white; padding:28px; border-radius:6px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  border: 1px solid rgba(0,0,0,0.04);
 }
 
-
-
-/* .form223 {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    background-color: white;
-    padding: 30px;
-    border-radius: 10px;
-} */
-
-
-label {
-    margin-right: 10px;
-}
-
-.input223 {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-.sub223 {
-    width: 2rem;
-    padding: 10px;
-    margin-top: 10px;
-    margin-left: 95vh;
-    padding: 15px 32px;
-    background-color: #4CAF50;
-    color: black;
-    border: 1px solid #f58840;
-    border-radius: 5px;
-    font-size:18px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.sub223:hover {
-    background-color: white;
-    color: #f58840;
-    border: 2px solid #f58840;
-   
-}
-
+/* Section headings and rules */
 h3 {
-    margin-top: 0;
-    color: #333;
+  font-size: 1rem; color:#111; margin:18px 0 10px 0; font-weight:700;
+}
+.section-rule { height: 1px; background: #111; width: 100%; margin:6px 0 12px 0; }
+
+/* Inputs */
+.input223 { width:100%; margin-bottom:12px; }
+
+/* Card blocks */
+.Experience223, .Education223, .Projects223 {
+  padding:10px; background:var(--card-bg); border-radius:6px; margin-bottom:12px;
+  border-left:4px solid rgba(0,0,0,0.06);
 }
 
+/* Buttons */
+.sub223 { padding: 10px 18px; border-radius:6px; background: var(--accent-2); color:white; border:2px solid var(--accent-2); cursor:pointer; font-weight:700; margin:8px; }
+.sub223:hover { background:white; color:var(--accent-2); }
 
-.add223{
-    background-color: #5c4caf; /* Green color for add button */
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-bottom: 38px;
-    /* margin-left: 400px; */
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
+/* Add / Delete / Clear */
+.add223,.del223,.clear223 { padding:8px 12px; border-radius:6px; cursor:pointer; border:none; display:inline-flex; align-items:center; }
+.add223{ background:var(--accent); color:white; } .del223{ background:#d32f2f; color:white; }
+.btn-row { display:flex; gap:10px; margin-top:8px; }
 
-}
-.add223:hover {
-    background-color: #4a3f8a; /* Darker shade of green on hover */
-}
-.clear223{
-  background-color: #5c4caf; /* Green color for add button */
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  text-align: center;
-  text-decoration: none;
-  /* display: inline-block; */
-  display: flex;
-  justify-content: space-around;
-  font-size: 14px;
-  margin-top: 50px;
-  margin-right: 5px;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-.del223 {
-  background-color: #f44336; /* Red color for delete button */
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin-top: 5px;
-  margin-right: 5px;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
+/* Download panel */
+.download-panel { max-width:980px; margin:18px auto; padding:14px; background:white; border-radius:8px; border:1px solid rgba(0,0,0,0.04); display:flex; flex-direction:column; align-items:center; gap:10px; }
+.choose-label { font-weight:700; }
+.format-select { padding:8px; border-radius:6px; border:1px solid #ddd; background:#fff; }
 
-.del223:hover {
-  background-color: #d32f2f; /* Darker shade of red on hover */
-}
-
-/* CSS animations for the delete and add buttons */
-.del223,.add223 {
-  animation: buttonFadeIn 0.5s ease forwards;
-}
-
-@keyframes buttonFadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-
-
-body{
-  max-width: 100vw !important;
-  overflow-x: hidden;
-}
+/* responsive */
+@media (max-width:900px) { .form223 { padding:18px; } }
+@media (max-width:600px) { .sub223 { width:100%; } .download-buttons { flex-direction:column; } }

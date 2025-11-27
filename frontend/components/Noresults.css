@@ -15,62 +15,64 @@
     justify-content: center;
     align-items: center; 
 }
+
+/* Suggested Jobs Section */
 .suggested-jobs-title {
   text-align: center;
-  margin-top: 60px;
-  font-size: 1.8rem;
-  font-weight: 600;
+  margin-top: 70px;
+  font-size: 3rem; /* extra large title */
+  font-weight: 900;  /* very bold */
   color: #ff7a00;
 }
 
 .suggested-jobs-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 25px;
-  margin-top: 25px;
-  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 40px; /* bigger spacing between cards */
+  margin-top: 50px;
+  padding-bottom: 70px;
 }
 
 .suggested-job-card {
   background: #fff;
   border: 1px solid #f3c7a3;
-  border-radius: 12px;
-  width: 300px;
-  padding: 20px;
+  border-radius: 18px;
+  width: 100%;
+  padding: 35px; /* bigger padding */
   text-align: center;
   transition: all 0.3s ease;
+  font-size: 1.4rem; /* bigger base font */
 }
 
 .suggested-job-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  transform: translateY(-6px);
 }
 
 .suggested-job-company {
   color: #ff7a00;
-  font-weight: bold;
-  margin-bottom: 10px;
-  font-size: 1.1rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  font-size: 1.8rem; /* bigger */
 }
 
 .suggested-job-role {
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.5rem; /* bigger */
+  font-weight: 700;
   color: #333;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
 }
 
 .suggested-job-place {
-  font-size: 0.9rem;
+  font-size: 1.3rem; /* bigger */
   color: #555;
-  margin: 4px 0;
+  margin: 8px 0;
 }
 
 .suggested-job-salary {
-  font-size: 1rem;
-  font-weight: 500;
-  margin: 8px 0 15px 0;
+  font-size: 1.4rem; /* bigger */
+  font-weight: 600;
+  margin: 14px 0 22px 0;
   color: #222;
 }
 
@@ -78,12 +80,48 @@
   background: #ff7a00;
   color: white;
   border: none;
-  border-radius: 8px;
-  padding: 8px 15px;
+  border-radius: 14px;
+  padding: 15px 30px; /* larger button */
   cursor: pointer;
-  transition: background 0.3s;
+  font-size: 1.2rem; /* larger text */
+  font-weight: 600;
+  transition: background 0.3s, transform 0.3s;
 }
 
 .suggested-details-btn:hover {
   background: #e66900;
+  transform: scale(1.05);
+}
+
+/* Responsive for tablets and mobile */
+@media (max-width: 1024px) {
+  .suggested-jobs-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .suggested-jobs-grid {
+    grid-template-columns: 1fr; /* 1 card per row */
+  }
+  .suggested-job-card {
+    padding: 30px;
+    font-size: 1.2rem;
+  }
+  .suggested-job-company {
+    font-size: 1.5rem;
+  }
+  .suggested-job-role {
+    font-size: 1.3rem;
+  }
+  .suggested-job-place {
+    font-size: 1.1rem;
+  }
+  .suggested-job-salary {
+    font-size: 1.2rem;
+  }
+  .suggested-details-btn {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+  }
 }

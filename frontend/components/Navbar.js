@@ -160,14 +160,14 @@ const Navbar = (props) => {
         <NavLink to='/courses' className='links881 hover-underline-animation-nav'>Trainings & Courses</NavLink>
         {/* <NavLink to='/notifications' className='links88' >Notifications</NavLink>  */}
 
-        <NavLink to={(token)?'/resume':'/login'} className='links881 hover-underline-animation-nav'>Resume <HiDocumentArrowDown /></NavLink> 
+        <NavLink to='/resume' className='links881 hover-underline-animation-nav'>Resume <HiDocumentArrowDown /></NavLink> 
 
         <NavLink to='/about' className='links881 hover-underline-animation-nav' >About Us</NavLink>
 
         <NavLink to='/contact' className='links881 hover-underline-animation-nav' >Contact</NavLink>
 
         {/* <NavLink to='/product' className='links881' >Subscription</NavLink> */}
-        <NavLink to={(token) ? '/product' : '/login'} className='links881 subscription-link' >Subscription <MdSubscriptions /></NavLink>
+        <NavLink to='/product' className='links881 subscription-link' >Subscription <MdSubscriptions /></NavLink>
 
         {
 

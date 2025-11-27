@@ -1,45 +1,34 @@
-// import React from 'react'
+import React from "react";
+import "./Subscription.css";
 
-// export default function Card({image,price,title,onCheckout}) {
-//   return (
-//     <>
-//         <div className="p-4 md:w-1/3">
-//                             <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-//                                 <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={image} alt="blog" />
-//                                 <div className="p-6">
-//                                     <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-//                                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">{title}</h1>
-//                                     <h2 className="leading-relaxed mb-3">{price}</h2>
-//                                     <button onClick={()=> onCheckout({name:title,amount:price})}>Pay Now</button>
-//                                 </div>
-//                             </div>
-//                         </div>
-//     </>
-//   )
-// }
+function PayCard({ planName, price, details, button, onCheckout }) {
+  const amountNumber = Number(price); // ensure number for Razorpay
 
-import { React } from "react";
-import "./Subscription.css"
-
-function PayCard({id, planName,price,details,button,onCheckout}){
-    return(
-        <div className="cardb02">
-            <div className="plan-infob02">
-                <div className="plan-detailsb02">
-                    <h4 className="plan-nameb02" style={{fontSize:"2.5rem"}}>{planName}</h4>
-                    <h4 className="plan-Priceb02" style={{fontSize:"4rem"}}>₹{price}</h4>
-                </div>
-
-                <div className="descriptionb02" style={{fontSize:"1.7rem"}}>
-                    <p>{details}</p>
-                </div>
-            </div>
-
-        
-            <button className="btnb02" onClick={()=> onCheckout({name:planName,amount:price})}>
-               {button}
-            </button>
+  return (
+    <div className="cardb02">
+      <div className="plan-infob02">
+        <div className="plan-detailsb02">
+          <h4 className="plan-nameb02" style={{ fontSize: "2.5rem" }}>
+            {planName}
+          </h4>
+          <h4 className="plan-Priceb02" style={{ fontSize: "4rem" }}>
+            ₹{price}
+          </h4>
         </div>
-    )
+
+        <div className="descriptionb02" style={{ fontSize: "1.7rem" }}>
+          <p>{details}</p>
+        </div>
+      </div>
+
+      <button
+        className="btnb02"
+        onClick={() => onCheckout({ name: planName, amount: amountNumber })}
+      >
+        {button}
+      </button>
+    </div>
+  );
 }
-export default PayCard
+
+export default PayCard;
